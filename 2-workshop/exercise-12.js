@@ -15,6 +15,28 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+
+  for (let i=1; i<=200; i++)
+  {
+    let factorCounter=0;
+    for (let j=1; j<=i; j++)
+    {
+      if (i%j===0)
+      {
+        factorCounter++;
+      }
+    }
+    if (factorCounter===2)
+    {
+      console.log(i);
+    }
+  }
+
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
