@@ -15,6 +15,28 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  
+  for(let i = 1; i <=8; i++)
+  {
+
+    let gridline = "";
+   for(let j = 1; j <= 8; j++)
+   {
+    if (((i%2!==0)&&(j%2!==0)) || ((i%2===0)&&(j%2===0)))
+    {
+      gridline +='#';
+    }
+    else gridline +='_';
+    
+   }
+   console.log(gridline);
+  }
+  
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
